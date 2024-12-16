@@ -5,7 +5,7 @@
 
 /**
  *
- * @author user
+ * @author pooja
  */
 public class Stack {
     private int[] elements;
