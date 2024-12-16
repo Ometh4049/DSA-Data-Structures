@@ -87,9 +87,9 @@ public class Main {
     public static void main(String[] args) {
         Queue queue = new Queue(5);
 
-        queue.enqueue(10);
-        queue.enqueue(20);
-        queue.enqueue(30);
+        queue.enqueue(100);
+        queue.enqueue(200);
+        queue.enqueue(300);
         queue.display();
 
         System.out.println("Peek: " + queue.peek());
