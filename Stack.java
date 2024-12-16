@@ -84,6 +84,15 @@ class Main {
 
         System.out.println("Pop: " + stack.pop());
         System.out.println("Pop: " + stack.pop());
+        
+        stack.push(60);
+        stack.display();
+        
+        System.out.println("Pop: " + stack.pop());
+        System.out.println("Pop: " + stack.pop());
+        stack.display();
+        
+        System.out.println("Pop: " + stack.pop());
         stack.pop();
     }
 }
